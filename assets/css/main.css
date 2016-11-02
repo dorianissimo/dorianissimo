@@ -345,7 +345,7 @@
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-		color: #d5f28c;
+		color: #a3d624;
 		text-decoration: none;
 	}
 
@@ -628,7 +628,7 @@
 			}
 
 			form .message.success {
-				color: #d5f28c;
+				color: #a3d624;
 			}
 
 				form .message.success:before {
@@ -790,7 +790,7 @@
 			-ms-animation: focus 0.1s;
 			animation: focus 0.1s;
 			background-color: rgba(255, 255, 255, 0.125);
-			border-color: #d5f28c;
+			border-color: #a3d624;
 		}
 
 	.select-wrapper {
@@ -892,16 +892,16 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #d5f28c;
-			border-color: #d5f28c;
+			background: #a3d624;
+			border-color: #a3d624;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #d5f28c;
-			box-shadow: 0 0 0 2px #d5f28c;
+			border-color: #a3d624;
+			box-shadow: 0 0 0 2px #a3d624;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -952,7 +952,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #d5f28c;
+		background-color: #a3d624;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff !important;
