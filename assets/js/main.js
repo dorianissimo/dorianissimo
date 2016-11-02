@@ -152,11 +152,7 @@
 
 					// Process form.
 
-    				$.post("https://hooks.zapier.com/hooks/catch/207988/6n19xt",
-    					{
-										name=Request.Form("name")
-										email=Request.Form("email")
-    					});
+    			
 
 					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
 
