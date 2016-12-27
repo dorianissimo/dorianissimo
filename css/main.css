@@ -413,4 +413,7 @@ p.paragraph {
   	width: 100%;
   	margin-top: 30px;
   }
+}.feature6 {
+	padding: 90px 0;
+	border-bottom: 1px solid rgba(0,0,0,.1)
 }
