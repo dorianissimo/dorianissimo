@@ -469,7 +469,7 @@ p.paragraph {
   color: #3b1f5d;
 }
 .popup .content {
-  max-height: 60%;
+  max-height: 70%;
   overflow: auto;
 }
 
