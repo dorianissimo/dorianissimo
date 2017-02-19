@@ -150,12 +150,14 @@ p.paragraph {
 .centerdevices,
 .sidedevices {
   position: relative;
+
 }.header {
 	padding: 20px 0 60px 0;
 	overflow: hidden;
 }
 .header .sidedevices {
-	margin: 60px 0 0
+	margin: 60px 0 0;
+	z-index: -0;
 }
 @media (max-width: 900px) {
 	.header .sidedevices {
@@ -350,6 +352,7 @@ p.paragraph {
 }
 .feature5 .sidedevices {
 	margin-top: 90px;
+	z-index: -1;
 }qw
 .feature5 .emoji {
 	width: 44px;
@@ -417,4 +420,64 @@ p.paragraph {
 	padding: 30px 0;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 	width: 100%;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 0px;
+  background: #fff;
+  width: 65%;
+  position: relative;
+  transition: all 5s ease-in-out;
+	z-index:999;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #633c84;
+	padding: 2px;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #3b1f5d;
+}
+.popup .content {
+  max-height: 70%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
 }
