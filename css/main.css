@@ -452,7 +452,7 @@ p.paragraph {
 .popup h2 {
   margin-top: 0;
   color: #633c84;
-	padding: 2px;
+	padding: 4px;
   font-family: Tahoma, Arial, sans-serif;
 }
 .popup .close {
@@ -473,7 +473,7 @@ p.paragraph {
   overflow: auto;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
   .box{
     width: 70%;
   }
