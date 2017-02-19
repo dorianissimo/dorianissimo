@@ -443,7 +443,7 @@ p.paragraph {
   margin: 70px auto;
   padding: 0px;
   background: #fff;
-  width: 65%;
+  width: 55%;
   position: relative;
   transition: all 5s ease-in-out;
 	z-index:999;
@@ -469,7 +469,7 @@ p.paragraph {
   color: #3b1f5d;
 }
 .popup .content {
-  max-height: 70%;
+  max-height: 60%;
   overflow: auto;
 }
 
