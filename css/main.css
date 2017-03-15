@@ -3,7 +3,7 @@
 	font-family: 'karla', sans-serif;
 }.footer,
 .header {
-	background: linear-gradient(to right bottom,#3b1f5d,#633c84,#a25fa7,#b672ba);
+	background: linear-gradient(to bottom right, #ff3d3d, #ffc83c);
 	color: white;
 }@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 *,
