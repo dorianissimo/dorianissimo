@@ -345,10 +345,15 @@ p.paragraph {
 	font-size: 55px;
 	color: black
 }
+.feature2 .emoji:hover {
+	font-size: 50px;
+	color: #ff3d3d;
+}
 @media (max-width: 900px) {
 	.feature2 .emoji {
     font-size: 40px;
   }
+
 	.feature2	.col-6:nth-of-type(1) {
 		padding: 45px 45px 45px 20px;
 	}
