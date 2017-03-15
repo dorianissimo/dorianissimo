@@ -335,11 +335,11 @@ p.paragraph {
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .feature2	.col-6:nth-of-type(2n - 1) {
-	padding: 90px 90px 90px 20px;
+	padding: 40px 90px 40px 20px;
 	border-right: 1px solid rgba(0,0,0,.1)
 }
 .feature2	.col-6:nth-of-type(3n - 1) {
-	padding: 90px 20px 90px 90px;
+	padding: 40px 20px 40px 90px;
 }
 .feature2 .emoji {
 	font-size: 55px;
