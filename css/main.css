@@ -118,6 +118,7 @@ p.paragraph {
 .col-11,
 .col-12 {
   padding: 0 20px;
+	align: center;
 }
 .col-1 {width: 8.333333%;}
 .col-2 {width: 16.666667%;}
