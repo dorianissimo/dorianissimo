@@ -482,7 +482,7 @@ p.paragraph {
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
-.fb-message-blue {
+.a .fb-message-blue {
   font-size: 16px;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
@@ -500,7 +500,8 @@ p.paragraph {
   -moz-transition: all ease .15s;
   transition: all ease .15s;
 }
-.fb-message-blue:hover {
+
+.a .fb-message-blue:hover {
   background-color: #2093ff;
   border: 1px solid #2093ff;
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
@@ -508,7 +509,7 @@ p.paragraph {
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
   /* transform: scale(1.15); */ /* uncomment to add zoom effect */
 }
-.fb-message-blue:focus {
+.a .fb-message-blue:focus {
   background-color: #0084ff;
   border: 1px solid #0084ff;
   -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
@@ -516,7 +517,7 @@ p.paragraph {
   box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
 }
 
-.fb-message-blue i {
+.a .fb-message-blue i {
   background-image: url('https://i.imgur.com/hjwozo7.png');
   background-repeat: no-repeat;
   background-size: 17px;
