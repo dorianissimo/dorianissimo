@@ -482,7 +482,7 @@ p.paragraph {
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
-.a .fb-message-blue {
+.fb-message-blue {
   font-size: 16px;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
@@ -501,7 +501,7 @@ p.paragraph {
   transition: all ease .15s;
 }
 
-.a .fb-message-blue:hover {
+.fb-message-blue:hover {
   background-color: #2093ff;
   border: 1px solid #2093ff;
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
@@ -509,7 +509,8 @@ p.paragraph {
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
   /* transform: scale(1.15); */ /* uncomment to add zoom effect */
 }
-.a .fb-message-blue:focus {
+
+.fb-message-blue:focus {
   background-color: #0084ff;
   border: 1px solid #0084ff;
   -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
@@ -517,7 +518,7 @@ p.paragraph {
   box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
 }
 
-.a .fb-message-blue i {
+.fb-message-blue i {
   background-image: url('https://i.imgur.com/hjwozo7.png');
   background-repeat: no-repeat;
   background-size: 17px;
@@ -528,10 +529,6 @@ p.paragraph {
   padding: 10px 7px;
   float: left;
 }
-
-/*---------------------------
-  White Button
----------------------------*/
 
 .fb-message-white {
   font-size: 16px;
@@ -578,22 +575,3 @@ p.paragraph {
   padding: 10px 7px;
   float: left;
 }
-
-
-
-
-
-
-
-
-
-
-/* Demo settings. Do not include. */
-body{background-color:#fff;padding-top:100px;}
-p{color:#666;font-size:18px;line-height:1.3;
-text-align:center;
-font-family:'Helvetica-Neue',Helvetica,Arial,sans-serif;}
-p a{color:#0084ff;text-decoration: none;}
-p a:hover{text-decoration:underline;}
-p sub{color:#888;font-size:11px;cursor:help;}
-code {color:#f35e5c;}
