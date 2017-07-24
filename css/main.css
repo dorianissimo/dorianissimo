@@ -483,12 +483,12 @@ p.paragraph {
 }
 
 .fb-message-blue {
-  font-size: 16px;
+  font-size: 20px;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
   color: #fff;
   background-color: #0084ff;
-  border: 1px solid #0084ff;
+  border: 3px solid #0084ff;
   width: 550px;
   height: 40px;
   line-height: 40px;
@@ -529,7 +529,7 @@ p.paragraph {
   float: left;
 }
 
-.fb-message-white {
+a.fb-message-white {
   font-size: 16px;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
