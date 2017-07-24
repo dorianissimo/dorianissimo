@@ -482,11 +482,7 @@ p.paragraph {
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
-/*---------------------------
-  Blue Button
----------------------------*/
-
-a.fb-message-blue {
+.fb-message-blue {
   font-size: 16px;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
@@ -504,7 +500,7 @@ a.fb-message-blue {
   -moz-transition: all ease .15s;
   transition: all ease .15s;
 }
-a.fb-message-blue:hover {
+.fb-message-blue:hover {
   background-color: #2093ff;
   border: 1px solid #2093ff;
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
@@ -512,7 +508,7 @@ a.fb-message-blue:hover {
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
   /* transform: scale(1.15); */ /* uncomment to add zoom effect */
 }
-a.fb-message-blue:focus {
+.fb-message-blue:focus {
   background-color: #0084ff;
   border: 1px solid #0084ff;
   -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
@@ -536,7 +532,7 @@ a.fb-message-blue:focus {
   White Button
 ---------------------------*/
 
-a.fb-message-white {
+.fb-message-white {
   font-size: 16px;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
@@ -554,7 +550,7 @@ a.fb-message-white {
   -moz-transition: all ease .15s;
   transition: all ease .15s;
 }
-a.fb-message-white:hover {
+.fb-message-white:hover {
   background-color: #fafafa;
   border: 1px solid #ccc;
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
@@ -562,7 +558,7 @@ a.fb-message-white:hover {
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
   /* transform: scale(1.15); */ /* uncomment to add zoom effect */
 }
-a.fb-message-white:focus {
+.fb-message-white:focus {
   background-color: #fff;
   border: 1px solid #bbb;
   -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
