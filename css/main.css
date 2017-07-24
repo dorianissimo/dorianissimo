@@ -515,7 +515,7 @@ a.fb-message-blue:focus {
   box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
 }
 
-.fb-message-blue i {
+a.fb-message-blue i {
   background-image: url('https://i.imgur.com/hjwozo7.png');
   background-repeat: no-repeat;
   background-size: 17px;
