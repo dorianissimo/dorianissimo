@@ -149,39 +149,6 @@
                           <a data-toggle="modal" data-target="#myModal2" style="color:red; text-decoration:underline">ԱՅՍ ՏԵՍՏԸ</a>, ինչպես նաև Դօրիանի լավագույն ստեղծագործությունների ցուցակն ըստ <a data-toggle="modal" data-target="#myModal3" style="color:red; text-decoration:underline">DORIAN.AM</a> և <a data-toggle="modal" data-target="#myModal4" style="color:red; text-decoration:underline">GoodReads</a> կայքերի օգտվողների, կօգնեն ձեզ ընտրել, թե հեղինակի աշխատանքներից որն արժե կարդալ առաջինը։
                         </h5>
                     </div>
-                    <script>
-                          window.fbMessengerPlugins = window.fbMessengerPlugins || {
-                            init: function () {
-                              FB.init({
-                                appId            : '1678638095724206',
-                                autoLogAppEvents : true,
-                                xfbml            : true,
-                                version          : 'v2.10'
-                              });
-                            }, callable: []
-                          };
-                          window.fbAsyncInit = window.fbAsyncInit || function () {
-                            window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
-                            window.fbMessengerPlugins.init();
-                          };
-                          setTimeout(function () {
-                            (function (d, s, id) {
-                              var js, fjs = d.getElementsByTagName(s)[0];
-                              if (d.getElementById(id)) { return; }
-                              js = d.createElement(s);
-                              js.id = id;
-                              js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
-                              fjs.parentNode.insertBefore(js, fjs);
-                            }(document, 'script', 'facebook-jssdk'));
-                          }, 0);
-                          </script>
-
-                          <div
-                            class="fb-customerchat"
-                            page_id="116635161692195"
-                            ref="">
-                          </div>
-                        
                 </div>
                 <div class="separator separator-primary"></div>
                 <div class="section-story-overview">
@@ -334,30 +301,6 @@
             </div>
         </div>
         <!-- Sart Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header justify-content-center">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                            <i class="fa fa-times"></i>
-                        </button>
-                        <h4 class="title title-up">Բնաստեղծություններ</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img src="./assets/img/poetry.jpg" alt="դօրիան բանաստեղծություններ" title="Բանաստեղծություններ" align="right" class="img-raised" width="150px" class="m-2" ><p>Ընթերցողին արդեն ծանոթ աշխատանքների հետ մեկտեղ Դօրիանի բանաստեղծությունների նոր ժողովածուում ընդգրկվել են նաև հեղինակի՝ նախկինում չհրապարակված բանաստեղծություններ և 5 նոր բանաստեղծություն՝ «<b>Բարի հոգին</b>», «<b>Ես տեսա Նահապետ Ղուշչյանին</b>», «<b>Խմոր</b>», «<b>Թե խի եմ լացում</b>» և «<b>Որդուս</b>»։
-                        <br/>
-                        Ժողովածուն հանդիսանում է մինչև 2017 թվականը գրված՝ Դօրիանի չափածոյի գրեթե ամբողջական հավաքածուն։
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="https://bookmate.com/books/simHXc12" target="_blank" rel="nofollow" type="button" class="btn btn-danger">Կարդալ</a>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Փակել</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--  End Modal -->
-        <!-- Sart Modal -->
         <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -437,6 +380,38 @@
                 </div>
             </div>
         </footer>
+        <script>
+              window.fbMessengerPlugins = window.fbMessengerPlugins || {
+                init: function () {
+                  FB.init({
+                    appId            : '1678638095724206',
+                    autoLogAppEvents : true,
+                    xfbml            : true,
+                    version          : 'v2.10'
+                  });
+                }, callable: []
+              };
+              window.fbAsyncInit = window.fbAsyncInit || function () {
+                window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+                window.fbMessengerPlugins.init();
+              };
+              setTimeout(function () {
+                (function (d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) { return; }
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+              }, 0);
+              </script>
+
+              <div
+                class="fb-customerchat"
+                page_id="116635161692195"
+                ref="">
+              </div>
 
     </div>
 </body>
