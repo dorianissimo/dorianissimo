@@ -149,7 +149,39 @@
                           <a data-toggle="modal" data-target="#myModal2" style="color:red; text-decoration:underline">ԱՅՍ ՏԵՍՏԸ</a>, ինչպես նաև Դօրիանի լավագույն ստեղծագործությունների ցուցակն ըստ <a data-toggle="modal" data-target="#myModal3" style="color:red; text-decoration:underline">DORIAN.AM</a> և <a data-toggle="modal" data-target="#myModal4" style="color:red; text-decoration:underline">GoodReads</a> կայքերի օգտվողների, կօգնեն ձեզ ընտրել, թե հեղինակի աշխատանքներից որն արժե կարդալ առաջինը։
                         </h5>
                     </div>
+                    <script>
+                          window.fbMessengerPlugins = window.fbMessengerPlugins || {
+                            init: function () {
+                              FB.init({
+                                appId            : '1678638095724206',
+                                autoLogAppEvents : true,
+                                xfbml            : true,
+                                version          : 'v2.10'
+                              });
+                            }, callable: []
+                          };
+                          window.fbAsyncInit = window.fbAsyncInit || function () {
+                            window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+                            window.fbMessengerPlugins.init();
+                          };
+                          setTimeout(function () {
+                            (function (d, s, id) {
+                              var js, fjs = d.getElementsByTagName(s)[0];
+                              if (d.getElementById(id)) { return; }
+                              js = d.createElement(s);
+                              js.id = id;
+                              js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+                              fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));
+                          }, 0);
+                          </script>
 
+                          <div
+                            class="fb-customerchat"
+                            page_id="116635161692195"
+                            ref="">
+                          </div>
+                        
                 </div>
                 <div class="separator separator-primary"></div>
                 <div class="section-story-overview">
