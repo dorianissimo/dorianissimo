@@ -3128,7 +3128,7 @@ a:focus {
 
 h1,
 .h1 {
-    font-size: 3.5em;
+    font-size: 3em;
     line-height: 1.15;
     margin-bottom: 30px;
 }
@@ -5551,7 +5551,7 @@ Created using IcoMoon - icomoon.io
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 0 15px;
-    color: #FFFFFF;
+    color: #fff;
     width: 100%;
     max-width: 880px;
 }

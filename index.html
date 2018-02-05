@@ -39,13 +39,12 @@
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
 </head>
-<body class="landing-page sidebar-collapse">
+<body class="profile-page sidebar-collapse">
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W23XGF"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-danger fixed-top navbar-transparent " color-on-scroll="400">
+    <nav class="navbar navbar-expand-lg bg-danger fixed-top navbar-transparent" color-on-scroll="400">
         <div class="container">
-
             <div class="navbar-translate">
                 <a class="navbar-brand" href="https://www.dorian.am" rel="tooltip" title="Հայ ժամանակակից գրող Դօրիանի անձնական կայքը" data-placement="bottom">
                     Dorian.am
@@ -92,50 +91,36 @@
         </div>
     </nav>
     <div class="wrapper">
-        <div class="page-header page-header-large">
-          <div class="page-header-image" data-parallax="false" style="background-image: url('./assets/img/bg20.png');">
+        <div class="page-header page-header-small" filter-color="orange">
+          <div class="page-header-image" data-parallax="true" style="background-image: url(&quot;https://source.unsplash.com/random&quot;); transform: translate3d(0px, 0px, 0px);">
           </div>
-            <div class="container">
-                <div class="content-center">
-                    <img src="./assets/img/avatar.png" class="rounded-circle  img-raised" alt="Դօրիան հայ ժամանակակից գրող արձակագիր բանաստեղծ" title="Դօրիան"/>
-                    <h1 class="title">Դօրիան՝ հայ ժամանակակից արձակագիր և բանաստեղծ</h1>
-                    <div class="text-center">
-                        <a href="https://www.facebook.com/Dorian.Armenia" class="btn btn-danger btn-icon btn-round" target="_blank" rel="nofollow">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-                        <a href="https://twitter.com/Dorian_am" class="btn btn-danger btn-icon btn-round" target="_blank" rel="nofollow">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="https://www.pinterest.com/dorianissimo" class="btn btn-danger btn-icon btn-round" target="_blank" rel="nofollow">
-                            <i class="fa fa-pinterest-p"></i>
-                        </a>
-                        <a href="https://www.youtube.com/channel/UCHvS4vfzbdnsYgau5vlyUAA" class="btn btn-danger btn-icon btn-round" target="_blank" rel="nofollow">
-                            <i class="fa fa-youtube-play"></i>
-                        </a>
-                        <a href="https://itunes.apple.com/us/author/դօրիան/id1182648125" class="btn btn-danger btn-icon btn-round" target="_blank" rel="nofollow">
-                            <i class="fa fa-apple"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+          <div class="container">
+              <div class="content-center">
+                  <div class="photo-container">
+                      <img src="./assets/img/avatar.png" alt="Դօրիան հայ ժամանակակից գրող արձակագիր բանաստեղծ" title="Դօրիան">
+                  </div>
+                  <h3 class="title">Դօրիան</h3>
+                  <p class="category">ԱՐՁԱԿԱԳԻՐ ԵՎ ԲԱՆԱՍՏԵՂԾ</p>
+              </div>
+          </div>
         </div>
-
-        <div class="alert alert-danger" role="alert">
-            <div class="container">
-                <div class="alert-icon">
-                    <i class="fa fa-bookmark"></i>
-                </div>
-                <strong>Հոկտեմբեր 2017</strong>: Հրապարակվեց «Իսկ գիշերվանից հետո՝ շուշաններ» վեպի երկրորդ հեղինակային խմբագրությունը<a href="https://bookmate.com/books/vMy9hTdU" target="_blank" rel="nofollow" style="color:black"> [Կարդալ]</a>
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">
-                        <i class="fa fa-times"></i>
-                    </span>
-                </button>
-            </div>
-        </div>
-
         <div class="section section-about-us">
             <div class="container">
+              <div class="button-container">
+                <a href="https://www.facebook.com/Dorian.Armenia" class="btn btn-danger btn-round btn-lg btn-icon" rel="tooltip" title="" data-original-title="Հետևեք ինձ Facebook-ում">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/dorian.am" class="btn btn-danger btn-round btn-lg btn-icon" rel="tooltip" title="" data-original-title="Հետևեք ինձ Instagram-ում">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                    <a href="https://twitter.com/Dorian_am" class="btn btn-danger btn-round btn-lg btn-icon" rel="tooltip" title="" data-original-title="Հետևեք ինձ Twitter-ում">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCHvS4vfzbdnsYgau5vlyUAA" class="btn btn-danger btn-round btn-lg btn-icon" rel="tooltip" title="" data-original-title="Հետևեք ինձ Youtube-ում">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+
+                </div>
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
                         <h2 class="title">Ի՞ՆՉ ԿԱՐԴԱԼ</h2>
@@ -231,7 +216,20 @@
                 </div>
             </div>
         </div>
-        <div class="separator separator-primary"></div>
+
+                <div class="alert alert-danger" role="alert">
+                    <div class="container">
+                        <div class="alert-icon">
+                            <i class="fa fa-bookmark"></i>
+                        </div>
+                        <strong>Հոկտեմբեր 2017</strong>: Հրապարակվեց «Իսկ գիշերվանից հետո՝ շուշաններ» վեպի երկրորդ հեղինակային խմբագրությունը<a href="https://bookmate.com/books/vMy9hTdU" target="_blank" rel="nofollow" style="color:black"> [Կարդալ]</a>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">
+                                <i class="fa fa-times"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
         <div class="section section-contact-us text-center">
             <div class="container">
                 <h2 class="title">Ցանկանում եք<br/> ստանալ բոլո՞ր գրքերը</h2>
@@ -414,6 +412,7 @@
 <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
 <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
 <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="../assets/js/plugins/jquery.sharrre.js" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="./assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
 
