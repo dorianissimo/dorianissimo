@@ -1766,7 +1766,7 @@ fieldset[disabled] .btn-success.active {
 .show>.btn-info.dropdown-toggle,
 .show>.btn-info.dropdown-toggle:focus,
 .show>.btn-info.dropdown-toggle:hover {
-    background-color: #4bb5ff;
+    background-color: #815fc0;
     color: #FFFFFF;
     box-shadow: none;
 }
@@ -1812,8 +1812,8 @@ fieldset[disabled] .btn-info.active {
 .btn-info.btn-simple:focus,
 .btn-info.btn-simple:active {
     background-color: transparent;
-    color: #4bb5ff;
-    border-color: #4bb5ff;
+    color: #815fc0;
+    border-color: #815fc0;
     box-shadow: none;
 }
 
@@ -1825,7 +1825,7 @@ fieldset[disabled] .btn-info.active {
 .btn-info.btn-link:focus,
 .btn-info.btn-link:active {
     background-color: transparent;
-    color: #4bb5ff;
+    color: #815fc0;
     text-decoration: none;
     box-shadow: none;
 }
@@ -2060,7 +2060,7 @@ fieldset[disabled] .btn-neutral.active {
 .btn-neutral.btn-info:hover,
 .btn-neutral.btn-info:focus,
 .btn-neutral.btn-info:active {
-    color: #4bb5ff;
+    color: #815fc0;
 }
 
 .btn-neutral.btn-warning {
