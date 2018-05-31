@@ -3188,7 +3188,7 @@ p {
 
 .description p,
 p.description {
-    font-size: 1.14em;
+    font-size: 1.4em;
 }
 
 .title {
@@ -7525,6 +7525,12 @@ Created using IcoMoon - icomoon.io
     }
 }
 
+big {
+    font-size: 1.4em;
+}
+p .anotation {
+  text-align: left;
+}
 @media screen and (max-width: 580px) {
     .alert button.close {
         position: absolute;
